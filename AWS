@@ -18,3 +18,57 @@ https://www.whizlabs.com/aws-sysops-administrator-associate/
 
 
 CloudFront
+
+#############################################################################################################
+
+Compte Azur
+its6@ief2i.fr
+F2i2019!
+
+#############################################################################################################
+
+Vagrant
+
+vagrant init
+
+###################
+#vagrant file#
+Vagrant.configure("2") do |config|
+
+   config.vm.box = "ubuntu/bionic64"
+   config.vm.network "private_network", ip: "192.168.1.10"
+   config.vm.hostname = "mydocker"
+
+end
+###################
+
+vagrant up
+vagrant ssh
+
+
+#############################################################################################################
+
+
+Processus en cascade  => Méthode actuel
+
+Spécification
+Analyse
+Design
+Codage
+Test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
